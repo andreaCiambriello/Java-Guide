@@ -73,3 +73,11 @@ Questo è il Main.java per il secondo commit, quindi qualora volessi rivedere gl
 
     Array2d arr2d = new Array2d();
     arr2d.usoArray2d();
+
+_____________________________________________________________________________________________________________________________________
+
+Terzo commit
+Questo è il Main.java per il terzo commit, quindi qualora volessi rivedere gli esempi del terzo commit dovrò usare questo.
+
+    Stringhe metodiStringhe = new Stringhe();
+    metodiStringhe.usoStringhe();
