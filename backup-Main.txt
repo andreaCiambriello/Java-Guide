@@ -1,6 +1,8 @@
 Questo è un file di backup che tiene traccia di come ho utilizzato il file Main.java per i diversi esempi, questo perchè ogni volta dovrò 
 cancellare il vecchio Main per poter scrivere nuovo codice.
 
+_____________________________________________________________________________________________________________________________________
+
 Primo commit
 Questo è il Main.java per il primo commit, quindi qualora volessi rivedere gli esempi del primo commit dovrò usare questo.
 
@@ -60,3 +62,14 @@ Questo è il Main.java per il primo commit, quindi qualora volessi rivedere gli 
 
     Cicli cicli = new Cicli();
     cicli.usoCicli();
+
+_____________________________________________________________________________________________________________________________________
+
+Secondo commit
+Questo è il Main.java per il secondo commit, quindi qualora volessi rivedere gli esempi del secondo commit dovrò usare questo.
+
+    Array arr = new Array();
+    arr.usoArray();
+
+    Array2d arr2d = new Array2d();
+    arr2d.usoArray2d();
