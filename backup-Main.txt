@@ -81,3 +81,11 @@ Questo è il Main.java per il terzo commit, quindi qualora volessi rivedere gli 
 
     Stringhe metodiStringhe = new Stringhe();
     metodiStringhe.usoStringhe();
+
+_____________________________________________________________________________________________________________________________________
+
+Quarto commit
+Questo è il Main.java per il quarto commit, quindi qualora volessi rivedere gli esempi del quarto commit dovrò usare questo.
+
+    WrapperClass reference = new WrapperClass();
+    reference.usoWrapperClass();
