@@ -89,3 +89,11 @@ Questo è il Main.java per il quarto commit, quindi qualora volessi rivedere gli
 
     WrapperClass reference = new WrapperClass();
     reference.usoWrapperClass();
+
+_____________________________________________________________________________________________________________________________________
+
+Quinto commit
+Questo è il Main.java per il quinto commit, quindi qualora volessi rivedere gli esempi del quinto commit dovrò usare questo.
+
+    ArrayListe listaDiArray = new ArrayListe();
+    listaDiArray.usoArrayListe();
