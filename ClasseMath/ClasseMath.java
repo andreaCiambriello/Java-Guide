@@ -1,3 +1,4 @@
+package ClasseMath;
 public class ClasseMath {
     
     /*

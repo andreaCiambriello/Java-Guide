@@ -1,3 +1,4 @@
+package Array2d;
 public class Array2d {
     
     public void usoArray2d() {

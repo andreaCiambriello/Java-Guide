@@ -1,3 +1,4 @@
+package Stringhe;
 public class Stringhe {
     
     /*

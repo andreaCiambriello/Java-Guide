@@ -1,3 +1,4 @@
+package Metodi;
 public class Metodi {
     /*
      *  I METODI
@@ -33,7 +34,9 @@ public class Metodi {
      * tanti quanti gliene vengono forniti, infatti la scrittura ... crea un riferimento ad un array che gestisce questi parametri.
      * In questo caso abbiamo un numero di parametri variabili di tipo int
      */
-    static void moltiValori(int... a) {
+
+    //N.B. uso la keyword public perchè Metodi è in un package diverso di Main
+    public static void moltiValori(int... a) {
         System.out.println("Questo metodo ha attualmente " + a.length + " parametri");
         System.out.println("Questi valori sono: ");
         for(int el: a) {

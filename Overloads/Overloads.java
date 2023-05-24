@@ -1,3 +1,4 @@
+package Overloads;
 public class Overloads {
     
     /*
@@ -11,22 +12,24 @@ public class Overloads {
      * utilizzare a seconda delle diverse necessità
      */
 
-    static int addizione(int a, int b) {             //stesso nome, 2 parametri, tipo int
+    //N.B. uso la keyword public perchè Overloads è in un package diverso di Main
+
+    public static int addizione(int a, int b) {             //stesso nome, 2 parametri, tipo int
         int risultato = a + b;
         return risultato;
     }
 
-    static int addizione(int a, int b, int c) {      //stesso nome, 3 parametri, tipo int
+    public static int addizione(int a, int b, int c) {      //stesso nome, 3 parametri, tipo int
         int risultato = a + b + c;
         return risultato;
     }
 
-    static double addizione(double a, double b) {    //stesso nome, 2 parametri, tipo double
+    public static double addizione(double a, double b) {    //stesso nome, 2 parametri, tipo double
         double risultato = a + b;
         return risultato;
     }
 
-    static double addizione(int a, double b) {    //stesso nome, 2 parametri, tipo int e tipo double
+    public static double addizione(int a, double b) {    //stesso nome, 2 parametri, tipo int e tipo double
         double risultato = a + b;
         return risultato;
     }

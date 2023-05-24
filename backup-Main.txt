@@ -6,6 +6,11 @@ ________________________________________________________________________________
 Primo commit
 Questo è il Main.java per il primo commit, quindi qualora volessi rivedere gli esempi del primo commit dovrò usare questo.
 
+    import Cicli.Cicli;
+    import ClasseMath.ClasseMath;
+    import Condizioni.Condizioni;
+    import Input.Input;
+    import Switch.Switch;
 
     /*  
      *       I TIPI DI DATO IN JAVA 
@@ -68,6 +73,9 @@ ________________________________________________________________________________
 Secondo commit
 Questo è il Main.java per il secondo commit, quindi qualora volessi rivedere gli esempi del secondo commit dovrò usare questo.
 
+    import Array.Array;
+    import Array2d.Array2d;
+
     Array arr = new Array();
     arr.usoArray();
 
@@ -79,6 +87,8 @@ ________________________________________________________________________________
 Terzo commit
 Questo è il Main.java per il terzo commit, quindi qualora volessi rivedere gli esempi del terzo commit dovrò usare questo.
 
+    import Stringhe.Stringhe;
+
     Stringhe metodiStringhe = new Stringhe();
     metodiStringhe.usoStringhe();
 
@@ -86,6 +96,8 @@ ________________________________________________________________________________
 
 Quarto commit
 Questo è il Main.java per il quarto commit, quindi qualora volessi rivedere gli esempi del quarto commit dovrò usare questo.
+
+    import WrapperClass.WrapperClass;
 
     WrapperClass reference = new WrapperClass();
     reference.usoWrapperClass();
@@ -95,6 +107,8 @@ ________________________________________________________________________________
 Quinto commit
 Questo è il Main.java per il quinto commit, quindi qualora volessi rivedere gli esempi del quinto commit dovrò usare questo.
 
+    import ArrayListe.ArrayListe;
+
     ArrayListe listaDiArray = new ArrayListe();
     listaDiArray.usoArrayListe();
 
@@ -102,6 +116,8 @@ ________________________________________________________________________________
 
 Sesto commit
 Questo è il Main.java per il sesto commit, quindi qualora volessi rivedere gli esempi del sesto commit dovrò usare questo.
+
+    import Metodi.Metodi;
 
     Metodi usoDeiMetodi = new Metodi();
 
@@ -114,3 +130,22 @@ Questo è il Main.java per il sesto commit, quindi qualora volessi rivedere gli 
     Metodi.addizione(2, 3); 
 
     Metodi.moltiValori(3, 4, 6, 7, 9, 15);    //essendo un varargs, gli posso passare quanti valori preferisco
+
+_____________________________________________________________________________________________________________________________________
+
+Settimo commit
+Questo è il Main.java per il settimo commit, quindi qualora volessi rivedere gli esempi del settimo commit dovrò usare questo.
+
+    import Overloads.Overloads;
+
+    //Overloads dei metodi: stesso nome, signature diverse
+
+    int risultatoIntInt = Overloads.addizione(3, 5);                   //addizione tra due int
+    double risultatoDoubleDouble = Overloads.addizione(3.4, 5.5);      //addizione tra due double
+    int risultatoIntIntInt = Overloads.addizione(3, 5, 7);             //addizione tra tre int
+    double risultatoIntDouble = Overloads.addizione(3, 5.5);           //addizione tra un int e un double
+    
+    System.out.println(risultatoIntInt);
+    System.out.println(risultatoDoubleDouble);
+    System.out.println(risultatoIntIntInt);
+    System.out.println(risultatoIntDouble);
