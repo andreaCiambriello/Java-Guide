@@ -149,3 +149,23 @@ Questo è il Main.java per il settimo commit, quindi qualora volessi rivedere gl
     System.out.println(risultatoDoubleDouble);
     System.out.println(risultatoIntIntInt);
     System.out.println(risultatoIntDouble);
+
+_____________________________________________________________________________________________________________________________________
+
+Ottavo commit
+Questo è il Main.java per il ottavo commit, quindi qualora volessi rivedere gli esempi del ottavo commit dovrò usare questo.
+
+    import OOP.Persona;
+
+    /*
+     * Per creare un oggetto di tipo persona bisogna dichiarare e istanziare come facevamo per i primitivi, o meglio per la reference
+     * String. Osservando la scrittura sotto, a sinistra abbiamo la reference Persona seguita dal nome dell'oggetto, come facevamo per
+     * String o per i primitivi. A destra invece abbiamo la keyword new seguita di nuovo da Persona, con questa scrittura stiamo
+     * chiamando il costruttore, ovvero il metodo che crea l'oggetto, lo stampino. Qui il costruttore è quello di default noArgs
+     */
+    
+    Persona persona = new Persona();
+
+    System.out.println(persona.nome);      //posso accedere al valore perchè public
+
+    persona.saluta();                      //posso accedere al metodo perchè public

@@ -1,6 +1,11 @@
 package OOP;
 
 /*
+ * OOP: Object Oriented Programing    
+ * La programmazione ad oggetti è un approccio alla programmazione che segue la logica di astrarre tutto in modelli, oggetti.
+ * Secondo questo logica bisogna suddividere tutto in oggetti, andiamo a ricreare delle entità, come se fossero oggetti della vita
+ * reale, con delle caratteristiche, uno stato e delle azioni
+ *        
  *  In questo esempio creiamo la classe Persona, che crea oggetti di tipo Persona, ovvero trasportiamo delle persone reali come oggetti.
  *  Questa classe però crea sempre lo stesso oggetto in quanto i campi sono fissi e non si usa un costruttore.
  */
