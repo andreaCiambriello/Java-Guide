@@ -45,4 +45,10 @@ package OOP;
         public void cammina() {
             System.out.println("Sto camminando...");
         }
+
+        // faccio un override del metodo toString implementato dalla superclasse Object, l'annotazione @Override si può omettere
+        public String toString() {
+            String str = this.nome + "\n" + this.cognome + "\n" + this.eta + "\n" + this.colorePreferito;
+            return str;
+        }
 }
