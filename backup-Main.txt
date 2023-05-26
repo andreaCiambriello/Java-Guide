@@ -192,3 +192,13 @@ Questo è il Main.java per il nono commit, quindi qualora volessi rivedere gli e
 
     andrea.saluta();                      //posso accedere al metodo perchè public
     luca.saluta();
+
+_____________________________________________________________________________________________________________________________________
+
+Decimo commit
+Questo è il Main.java per il decimo commit, quindi qualora volessi rivedere gli esempi del decimo commit dovrò usare questo.
+
+import ToString.ToString;
+
+    ToString usoToString = new ToString();
+    usoToString.usoToString();
